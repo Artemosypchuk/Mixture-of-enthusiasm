@@ -11,6 +11,7 @@
     text-align: center;
     color: var(--color-scheme-1-text);
     font-family: var(--second-family);
+    margin-bottom: 20px;
 }
 
 /* for any buttons */
@@ -29,6 +30,7 @@
 
     .title {
         font-size: 52px;
+        margin-bottom: 24;
     }
 }
 
