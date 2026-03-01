@@ -7,9 +7,15 @@ h6,
 p {
   margin: 0;
 }
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 
-p:last-child {
-  margin-bottom: 0;
+body {
+  font-family: var(--font-family), sans-serif;
+  color: var(--color-neutral-darkest);
+  line-height: 1.6;
+  background: var(--color-scheme-3-background);
 }
 
 ul {
@@ -23,8 +29,13 @@ a {
   text-decoration: none;
 }
 
+input, textarea {
+  background-color: transparent;
+}
+
 button {
   cursor: pointer;
+  background-color: transparent;
 }
 
 img {
